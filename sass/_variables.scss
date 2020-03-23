@@ -1,0 +1,10 @@
+// Colors 
+
+$color-one: #000;
+$color-two: #FFF;
+$color-three: #CCC;
+
+// Animations
+@mixin animation {
+    transition: all 0.3s ease;
+}

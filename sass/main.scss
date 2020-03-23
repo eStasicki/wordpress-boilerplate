@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap&subset=latin-ext');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import '../sass/_variables';
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    font-weight: 400;
+}
+
+strong {
+    font-weight: 700;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    font-size: 14px;
+}
+
+// Pages
+@import '../sass/pages/_page';
